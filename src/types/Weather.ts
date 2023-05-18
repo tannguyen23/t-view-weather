@@ -3,10 +3,10 @@ export type Weather =  {
     name : string;
     main : {
         humidity : number;
+        temp : number;
     }
     weather : [{
         id : number;
-        temp : number;
         main : WeatherMainType;
         description : string;
     }]
